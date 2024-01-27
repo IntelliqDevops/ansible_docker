@@ -1,0 +1,9 @@
+---
+- name: Login into docker hub
+  hosts: all
+  tasks:
+    - name: Login
+      docker_login:
+        username: intelliqit
+        password: krishna123
+
